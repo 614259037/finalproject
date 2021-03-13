@@ -1,0 +1,144 @@
+input {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+  
+    width: 50%;
+    height: 10px;
+  
+    padding: 20px;
+    margin-bottom: 30px;
+    background: white;
+    box-shadow: rgb(68, 31, 9) 3px 6px 15px;
+    font-size: 20px;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+.container{
+  text-align: center;
+  border-bottom: 10px solid rgb(113, 234, 255);
+  
+}
+
+
+input:hover {
+  box-shadow: rgb(122, 102, 92) 3px 6px 15px;
+}
+.cd{
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 3px solid #dfe1e5;
+    border-radius: 10px;
+    font-size: 2em;
+    color: rgb(221, 240, 225);
+    font-weight: bold;
+    text-align: left;
+    
+}
+.ct{
+    text-align: left;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    
+}
+
+.card{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+.middle{
+  background-color: rgb(179, 232, 232);
+  width: 400px;
+  height: auto;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 10px;
+
+}
+.image{
+  width: 400px;
+  height: 450px;
+  
+}
+.profile{
+  border-radius: 10px;
+  padding: 5px;
+}
+.comment{
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.user{
+  padding: 120px;
+  font-size: 30px;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover 
+{
+   color:#00A0C6; 
+   text-decoration: none; 
+   cursor: pointer;
+}
+.photo {
+  width: 60%;
+  background-color: pink;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.0975);
+  max-width: 400px;
+  margin-bottom: 40px;
+ border-color: pink;
+}
+
+
+.photohead {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.0975); */
+}
+
+.photoprofile {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.photoname {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.MyStagram{
+  font-weight: bold;
+  font-size: 30px;
+  animation: neon 3s infinite;
+}
+
+@keyframes neon {
+  0% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+  50% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+    0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+  }
+  100% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+}
+:root {
+  --shadow-color: #FF9E9E;
+  --shadow-color-light: white;
+}

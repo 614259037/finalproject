@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  height: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#black {
+  background-color: #f0f0f0;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  height          : 100%;
 }
-
-.App-header {
-  background-color: #282c34;
+.__main {
+background-image: url(https://cdn.wallpapersafari.com/45/4/wMPXDm.jpg); 
+ min-height: 100vh;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  border: 15px solid rgb(35, 33, 37);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

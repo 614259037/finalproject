@@ -1,0 +1,35 @@
+.__img{
+    text-align: center;
+}
+
+.containers{
+    font-size: 40px;
+    color: rgb(221, 240, 225);
+    font-weight:bold;
+    text-align: center;
+
+}
+
+.titleProfile{
+    text-align: center;
+    border-bottom: 3px solid rgb(130, 227, 252);
+}
+.btn{
+ background-color: rgb(113, 234, 255);
+ padding: 3px;
+ border-radius: 5px;
+}
+.allimage{
+    margin:10px;
+    border: 3px solid rgb(44, 20, 6);
+    box-shadow: rgb(10, 7, 7) 7px 7px 4px;
+    border-radius: 10px;
+}
+.allimage:hover {
+    box-shadow: rgb(109, 250, 255) 3px 6px 15px;
+  }
+  .imgprofile:hover {
+    box-shadow: rgb(97, 62, 255) 3px 6px 15px;
+  }
+
+ 
